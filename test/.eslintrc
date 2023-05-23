@@ -1,0 +1,10 @@
+{
+  "extends": "../.eslintrc",
+  "rules": {
+    "prefer-rest-params": 0
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  }
+}
