@@ -1,6 +1,10 @@
 {
    "extends": ["@nyxb"],
    "rules": {
+      "no-cond-assign": 0,
+      "@typescript-eslint/no-this-alias": 0,
+      "no-undef": 0,
+      "n/prefer-global/buffer": 0,
      "@next/next/no-html-link-for-pages": 0
    },
    "settings": {
