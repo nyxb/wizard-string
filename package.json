@@ -41,7 +41,7 @@
     "lint": "eslint src test && publint",
     "lint:fix": "eslint . --fix",
     "prepare": "nyxr build",
-    "prepublishOnly": "nyxr lint && rimraf dist && nyxr build && nyxr test",
+    "prepublishOnly": "nyxr lint && rimraf dist && nyxr build",
     "release": "nyxlx changelogen@latest --release && pnpm publish",
     "pretest": "nyxr build",
     "test": "mocha",
