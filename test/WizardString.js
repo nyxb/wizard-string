@@ -116,7 +116,7 @@ describe('WizardString', () => {
    })
 
    describe('clone', () => {
-      it('should clone a magic string', () => {
+      it('should clone a wizard string', () => {
          const s = new WizardString('abcdefghijkl')
 
          s.overwrite(3, 9, 'XYZ')
@@ -1497,7 +1497,7 @@ describe('WizardString', () => {
       })
 
       it('works with global regex replace function', () => {
-         const code = 'hey this is magic'
+         const code = 'hey this is wizard'
          const s = new WizardString(code)
 
          s.replace(/(\w)(\w+)/g, (_, $1, $2) => `${$1.toUpperCase()}${$2}`)
